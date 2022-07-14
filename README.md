@@ -1,6 +1,6 @@
 # propelTheory-creatingBusinessCard
 
-### Profile
+### BusinessCard
 - _id: ObjectId
 - Name: String 
 - Designation: String
@@ -13,9 +13,9 @@
 - companyLogo: String(Image URL)
 
 ### First API
-## Creating a new profile
+## Creating a new businessCard
 POST /createBusinessCard
 
 ### Second API
-## Getting a single profile using _id
+## Getting a single businessCard using _id
 GET /getBusinessCard/:cardId
